@@ -56,11 +56,11 @@ CREATE TABLE IF NOT EXISTS usuarios (
 -- Inserção de dados na tabela usuarios
 INSERT INTO usuarios (id, name, email, password, senha) VALUES
 (1, NULL, 'laura@email.com', NULL, '123'),
-(2, NULL, 'laura@gmail.com', NULL, '$2b$10$0c6T4gFAjgx/6EY7P/pPPeol7Baotf7xRLBFBjj7BeRs57N27pO7W'),
-(3, NULL, 'xunda@gmail.com', NULL, '$2b$10$er8XOIFyxsKi4xYZYuHO7.PAopWnPnHiDw6WG4AYbbhD4/AO3vdNC'),
-(4, NULL, 'carlos@gmail.com', NULL, '$2b$10$18ChmQHSWDEm86sM7u5AWObSepuOVrsEIiZKW3n1AVqXe2dppFDoi'),
-(5, NULL, 'diego@gmail.com', NULL, '$2b$10$OrtwkFf0kHopk2heFUftXOzZsQJyTYTiNUbUja3NJsBd.c2FEj4Ty'),
-(6, NULL, 'antonia@gmail.com', NULL, '$2b$10$YQ/j4oXF57i5lpEUGREXJ.1TvH1goYaxaGBFIw2GSmYUg8rs46xcq');
+(2, NULL, 'laura@gmail.com', NULL, '123'),
+(3, NULL, 'xunda@gmail.com', NULL, '123'),
+(4, NULL, 'carlos@gmail.com', NULL, '123'),
+(5, NULL, 'diego@gmail.com', NULL, '123'),
+(6, NULL, 'antonia@gmail.com', NULL, '123');
 
 -- Tabela: admin
 CREATE TABLE IF NOT EXISTS admin (
